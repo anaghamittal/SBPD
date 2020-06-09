@@ -1,107 +1,95 @@
-body
-{ 
-  background-color: rgba(153, 197, 57, 0.6); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
+body {
+    background-color: rgba(153, 197, 57, 0.6);
+    height: 1080px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.bottom_right_pineapple
-{
-	position: fixed;
-	bottom: 0;
-	right: 0;
+.bottom_right_pineapple {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
-.bottom_left_pineapple
-{
-	position: fixed;
-	bottom: 0;
-	left: 0;
+.bottom_left_pineapple {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
-.title
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -5px;
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
 }
 
-.navbar
-{
-	align-items: center;
-	align-self: center;
-	align-content: center;
-	alignment-baseline: central;
-	text-align: center;
+.navbar {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    alignment-baseline: central;
+    text-align: center;
 }
 
-.navbar_border_1
-{
-	position: relative;
-	width: 100%;
-	height: 7px;
-	
-	
-	background: #FFFFFF;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
-	border-radius: 31px;
+.navbar_border_1 {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 31px;
 }
 
-.navbar_border_2
-{
-	position: relative;
-	width: 100%;
-	height: 7px;
-	top: 0px;
-	background: #FFFFFF;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
-	border-radius: 31px;
+.navbar_border_2 {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 31px;
 }
 
-.navbar_button
-{
-
-	display: inline-block;
-	width: 320px;
-	height: 60px;
-	margin: 10px 65px;
-	background: #FFFFFF;
-	box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.22);
-	border-radius: 18px;
-	align-content: center;
-	text-align: center;
-	align-items: center;
+.navbar_button {
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 18px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
 }
 
-nav ul
-{
-	list-style: none;
-	margin: 0;
-	padding: 0;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-nav li
-{
-	display: inline-block;
+nav li {
+    display: inline-block;
 }
 
-nav ul > .navbar_button > li > a
-{
-	position: relative;
-	text-decoration: none;
-	font-family: Love Ya Like A Sister;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 40px;
-	line-height: 60px;
-	/* identical to box height */
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #9EA033;
+nav ul>.navbar_button>li>a {
+    position: relative;
+    text-decoration: none;
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9EA033;
 }
